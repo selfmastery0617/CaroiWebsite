@@ -24,12 +24,12 @@ export const siteConfig = {
     "Caroi LLC helps businesses transform complex data into actionable insights through data analysis, business intelligence, dashboards, reporting, and visualization.",
 
   // Replace with the production domain before launch.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://YOUR_SITE_URL.example",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://YOUR_SITE_URL.example",
 
   // Centralized contact placeholders. Update these once real information
   // is available — every component below reads from this single source.
   contact: {
-    email: process.env.CONTACT_EMAIL ?? "YOUR_EMAIL",
+    email: process.env.CONTACT_EMAIL || "YOUR_EMAIL",
     phone: "YOUR_PHONE",
     location: "YOUR_LOCATION",
   },
